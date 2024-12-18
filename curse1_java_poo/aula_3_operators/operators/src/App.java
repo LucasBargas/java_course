@@ -1,4 +1,5 @@
 public class App {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) throws Exception {
 		int a = 10 + 5; // Atribui o valor 15 à variável a
 		int b = 10 - 5; // Atribui o valor 5 à variável b
