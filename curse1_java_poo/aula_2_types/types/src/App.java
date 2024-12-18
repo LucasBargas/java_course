@@ -8,5 +8,9 @@ public class App {
     boolean isAMovie = true;
     String message = isAMovie ? "This is a movie" : "This's not a movie";
     System.out.println(message);
+
+    // Char type - with single quotes
+    @SuppressWarnings("unused")
+    char letter = 'c';
   }
 }
