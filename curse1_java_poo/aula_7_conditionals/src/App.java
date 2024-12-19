@@ -5,6 +5,7 @@ public class App {
     double filmNote = 8.1;
     String planType = "plus";
 
+    // if/else
     if (yearOfRelease >= 2024) {
       System.out.println("Lançamento muito curtido!");
     } else {
