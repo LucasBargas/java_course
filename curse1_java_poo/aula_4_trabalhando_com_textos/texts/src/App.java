@@ -12,7 +12,11 @@ public class App {
       Filme de aventura com galã dos anos 80, muito bem avaliado.
       Lançado no ano de %s.         
     """, year);
-
     System.out.println(sinopseTwo);
+
+    // Comparing strings safely
+    String password = "123456";
+    String message = password.equals("123456") ? "Acesso autorizado" : "Senha incorreta";
+    System.out.println(message);
   }
 }
