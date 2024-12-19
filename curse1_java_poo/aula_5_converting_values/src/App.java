@@ -9,5 +9,13 @@ public class App {
     int age = 24;
     double other = (double) age;
     System.out.println(other);
+
+    // Conversão de temperatura em Fahrenheit
+    int temperature = 29;
+    double fahrenheit = (temperature * 1.8) + 32; // or: int fahrenheit = (int) (temperature * 1.8) + 32;
+
+    int fahrenheitInteger = (int) fahrenheit;
+
+    System.out.println(fahrenheitInteger);
   }
 }
