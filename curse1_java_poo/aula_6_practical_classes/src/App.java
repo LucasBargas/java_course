@@ -9,6 +9,7 @@ public class App {
     // Média de duas notas decimais
     double media = (7.54 + 8.32) / 2;
     int result = (int) media;
+  
     System.out.println(result);
 
     // Declare uma variável do tipo char (letra) e uma variável do tipo String (palavra). Atribua valores a essas variáveis e concatene-as em uma mensagem
