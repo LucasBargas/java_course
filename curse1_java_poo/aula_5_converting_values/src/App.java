@@ -11,11 +11,12 @@ public class App {
     System.out.println(other);
 
     // Conversão de temperatura em Fahrenheit
-    int temperature = 29;
+    double temperature = 26.5;
     double fahrenheit = (temperature * 1.8) + 32; // or: int fahrenheit = (int) (temperature * 1.8) + 32;
-
     int fahrenheitInteger = (int) fahrenheit;
 
-    System.out.println(fahrenheitInteger);
+    String message = String.format("A temperatura de %s graus é equivalente a %s Fahrenheit", temperature, fahrenheitInteger);
+
+    System.out.println(message);
   }
 }
