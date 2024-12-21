@@ -68,7 +68,6 @@ public class App {
     }
 
     // Crie um programa que solicite ao usuário a entrada de um número inteiro. Verifique se o número é par ou ímpar e exiba uma mensagem correspondente.
-    
     System.out.println("Digite um número inteiro ou 0 para sair:");
     int aNumber = reading.nextInt();
     
